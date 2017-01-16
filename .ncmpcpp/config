@@ -1,0 +1,70 @@
+# Configuracion basica
+ncmpcpp_directory =             "~/.ncmpcpp"
+mpd_music_dir =             "/home/virus69/Música" 
+mpd_host =              "localhost"
+mpd_port =              "6677"
+mpd_connection_timeout =        5
+
+# Interfaz:
+user_interface = "alternative"
+alternative_header_first_line_format =  "$(3)─┤ $b$(8)%a$(end)$/b ├─$(end)"
+alternative_header_second_line_format = "$(3)%t (%y)$(end)"
+alternative_ui_separator_color =    "cyan"
+
+ Formato de canción:
+ song_columns_list_format =         "$L(9)[white]{l} $1│$7 (20)[green]{a} $1│$7
+ (30)[cyan]{b}$R(20)[white]{t}"
+#song_list_format =             " $0$8$8%l$0$8 $9>> $3%a$7 $9>> $9%t$1 $R
+ $8%b$1"
+#playlist_display_mode =        "classic" (classic/columns)
+ now_playing_prefix =           "$b"
+ centered_cursor =          "no"
+ cyclic_scrolling =             "no"
+ mouse_list_scroll_whole_page =         "no"
+
+# Varias configuraciones:
+ autocenter_mode =          "yes"
+ display_bitrate =          "yes"
+ header_visibility =            "yes"
+ statusbar_visibility =             "yes"
+ progressbar_look =             "◾◾◽"
+
+
+# Visualizador de música:
+ visualizer_output_name =       "FIFO"
+ visualizer_in_stereo =             "no"
+ visualizer_fifo_path =             "/tmp/mpd.fifo"
+ visualizer_sync_interval =         "10"
+ visualizer_type =          "spectrum"
+ visualizer_look =          "▋▋"
+
+#execute_on_song_change =       "~/cover"
+
+# Color:
+ discard_colors_if_item_is_selected =   "yes"
+ main_window_color =            "3"
+ header_window_color =          "3"
+ progressbar_color =            "white"
+ statusbar_color =          "green"
+ active_column_color =          "green"
+ volume_color =                 "3"
+ window_border_color =          "green"
+ active_window_border =             "green"
+
+# No activos
+#song_list_format =             "{ $8%a $1>> $2}{%t}$8"
+#song_status_format =           "$8%a $1>> $2%t $1>> $1%b$8 (%y)$1"
+#colors_enabled =           "yes"
+#color1 =               "cyan"
+#color2 =               "white"
+#empty_tag_color =          "white"
+#main_window_highlight_color =      "white"
+#state_line_color =             "white"
+#state_flags_color =            "white"
+#visualizer_color =             "11"
+
+#progressbar_look =             "─░─"
+#progressbar_look =             "─⊙╶"
+#progressbar_look =             "◾◾◽"
+#visualizer_look  =             "▋▋"  ▄▄
+
